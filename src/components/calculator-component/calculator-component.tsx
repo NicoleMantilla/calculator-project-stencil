@@ -1,7 +1,9 @@
 import { Component,h } from "@stencil/core";
 
 @Component({
-	tag:'calculator-component'
+	tag:'calculator-component',
+  styleUrl: 'calculator-component.css',
+  shadow: true,
 })
 export class CalculatorComponent {
 	render (){
