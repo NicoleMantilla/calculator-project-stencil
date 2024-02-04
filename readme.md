@@ -51,4 +51,10 @@ npm test
 ```
 
 ## Funcionalities:
+<ul>
+<li>Press the buttons of the calculator with the operation you want to perform .</li>
+<li>To get your result click on the equal sign.</li>
+<li>Delete: To delete a sign number that you have entered by mistake, click on Delete. </li>
+<li>Reset: To reset everything and clear the previe, click on C.</li>
+</ul>
 
