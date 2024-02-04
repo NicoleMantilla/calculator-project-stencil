@@ -2,7 +2,7 @@
 
 # Calculator Project Starter
 
-This is a starter project for building a calculator project using StencilJs.
+This is a calculator project using StencilJs.
 
 The calculator has:
 A display showing the current operation.
