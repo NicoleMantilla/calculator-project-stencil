@@ -1,3 +1,22 @@
-:host {
-	display: block;
+ .b-calculator-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #4d8ac8;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+  }
+  .calculator-container {
+	background-color: #ebf5ff;
+	padding: 20px;
+	border-radius: 10px;
+	width: 250px;
+  }
+  .calculator-result-preview {
+	background-color: #cce6ff;
+	width: auto;
+	padding: 10px;
   }
