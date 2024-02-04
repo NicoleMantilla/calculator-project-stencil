@@ -3,7 +3,7 @@
 # Calculator Project Starter
 <div align="center">
   <a href="https://github.com/NicoleMantilla/calculator-project-stencil">
-    <img src="https://static.vecteezy.com/system/resources/previews/000/508/890/original/calculator-icon-design-vector.jpg" alt="Logo">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F508%2F890%2Foriginal%2Fcalculator-icon-design-vector.jpg&f=1&nofb=1&ipt=7684889f05f9f81759a08efa28319ee71a92fb75ac6bac8ed4d0fce7cb15a3f6&ipo=images" alt="Logo">
   </a>
 </div>
 
