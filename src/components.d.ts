@@ -6,11 +6,22 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface CalculatorButton {
+        "handleClick": () => void;
+        "label": string;
+        "widthAuto": boolean;
+    }
     interface CalculatorComponent {
         "calculatorButtons": string[];
     }
 }
 declare global {
+    interface HTMLCalculatorButtonElement extends Components.CalculatorButton, HTMLStencilElement {
+    }
+    var HTMLCalculatorButtonElement: {
+        prototype: HTMLCalculatorButtonElement;
+        new (): HTMLCalculatorButtonElement;
+    };
     interface HTMLCalculatorComponentElement extends Components.CalculatorComponent, HTMLStencilElement {
     }
     var HTMLCalculatorComponentElement: {
@@ -18,14 +29,21 @@ declare global {
         new (): HTMLCalculatorComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "calculator-button": HTMLCalculatorButtonElement;
         "calculator-component": HTMLCalculatorComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface CalculatorButton {
+        "handleClick"?: () => void;
+        "label"?: string;
+        "widthAuto"?: boolean;
+    }
     interface CalculatorComponent {
         "calculatorButtons"?: string[];
     }
     interface IntrinsicElements {
+        "calculator-button": CalculatorButton;
         "calculator-component": CalculatorComponent;
     }
 }
@@ -33,6 +51,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "calculator-button": LocalJSX.CalculatorButton & JSXBase.HTMLAttributes<HTMLCalculatorButtonElement>;
             "calculator-component": LocalJSX.CalculatorComponent & JSXBase.HTMLAttributes<HTMLCalculatorComponentElement>;
         }
     }
