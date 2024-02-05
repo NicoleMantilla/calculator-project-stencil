@@ -9,7 +9,6 @@ export class CalculatorHistory {
   @Prop() entries: string[] = [];
 
   render() {
-    console.log('low level', this.entries);
     return (
       <div>
         <h2>History</h2>

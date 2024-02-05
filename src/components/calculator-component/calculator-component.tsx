@@ -21,7 +21,7 @@ export class CalculatorComponent {
 
   render() {
     const buttons = this.calculatorButtons.length > 0 ? this.calculatorButtons : this.defaultCalculatorButtons;
-    console.log('high level', this.history);
+   
     return (
       <div class="b-calculator-body flex-center">
         <div class="calculator-container">
