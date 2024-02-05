@@ -11,8 +11,7 @@ This is a calculator project using StencilJs.
 
 The calculator has:
 A display showing the current operation.
-A panel with a log or record, showing all the operations being
-The calculator has a log panel to show all the operations being performed.
+A panel with a log or record, showing all the operations being performed.
 
 Stencil is also great for building entire apps. For that, use the [stencil-app-starter](https://github.com/ionic-team/stencil-app-starter) instead.
 
